@@ -28,12 +28,6 @@
 .vfrc-button {
   background: rgba(255, 255, 255, 0.1) !important;
 }
-.voiceflow-chat--overlay {
-  background: rgba(234, 190, 122, 0.5) !important; /* Apply slight opacity */
-  backdrop-filter: blur(50px) brightness(2) !important;
-  border-radius: 20px !important;
-  overflow: hidden !important;
-}
 .vfrc-system-response--list {
   width: 100% !important;
   margin: 0 !important;
