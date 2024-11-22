@@ -1,6 +1,12 @@
 /* custom-voiceflow-styles.css */
 
 /* Hide header content */
+.voiceflow-chat--overlay {
+  background: rgba(234, 190, 122, 0.5) !important; /* Apply slight opacity */
+  backdrop-filter: blur(50px) brightness(2) !important;
+  border-radius: 20px !important;
+  overflow: hidden !important;
+}
 .vfrc-header {
   display: none !important;
 }
